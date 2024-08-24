@@ -6,6 +6,11 @@ O ColorMatch surge em resposta a um problema comum enfrentado por muitos consumi
 
 2- O sistema retorna a cor correspondende em outra marca.
 
+## Board de atividades do projeto:
+
+**Notion do ColorMatch:**
+
+https://www.notion.so/TCC-ColorMatch-aea3be32a9ab412ea60d7b6273a1bd96?pvs=4
 ## Requisitos do Sistema
 
 ### Requisitos Funcionais (RF):​
