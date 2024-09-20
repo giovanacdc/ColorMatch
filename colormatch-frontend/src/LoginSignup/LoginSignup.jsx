@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import React, {useState} from 'react'
 import './LoginSigup.css'
 import user_icon from '../Assets/person.png'
