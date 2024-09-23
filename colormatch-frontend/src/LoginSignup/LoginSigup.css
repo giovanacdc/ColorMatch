@@ -1,6 +1,6 @@
 body{
     height: 100vh;
-    background: linear-gradient(#B36A5E, #C89F9C);
+    background: #C89F9C;
 }
 .container {
     display: flex;

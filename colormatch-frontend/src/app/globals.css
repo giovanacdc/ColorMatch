@@ -3,8 +3,9 @@
 @tailwind utilities;
 
 body {
-  height: 100vh;
-  background: linear-gradient(#B36A5E, #C89F9C);
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,Arial, Helvetica, sans-serif;
-}
+  /*height: 100vh;
+  background: linear-gradient(#B36A5E, #C89F9C);*/
+  font-family: "poppins",-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,Arial, Helvetica, sans-serif;
+} 
+
 

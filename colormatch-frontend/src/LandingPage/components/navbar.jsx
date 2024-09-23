@@ -1,8 +1,8 @@
 "use client"
 import React, { useState } from "react";
+import Image from 'next/image'
 import './style.css'
-//import Logo from "../Assets/Logo.svg";
-import { BsCart2 } from "react-icons/bs";
+import Logo from '../../Assets/logo.svg';
 import { HiOutlineBars3 } from "react-icons/hi2";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
@@ -40,7 +40,7 @@ const Navbar = () => {
   return (
     <nav>
       <div className="nav-logo-container">
-        <h1>ColorMatch</h1>
+        <Image src={Logo} alt="" />
       </div>
       <div className="navbar-links-container">
         <a href="">Home</a>

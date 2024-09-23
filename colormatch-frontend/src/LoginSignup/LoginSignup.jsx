@@ -1,6 +1,7 @@
 "use client"
 import React, {useState} from 'react'
 import './LoginSigup.css'
+import Image from 'next/image'
 import user_icon from '../Assets/person.png'
 import email_icon from '../Assets/email.png'
 import password_icon from '../Assets/password.png'
@@ -16,19 +17,19 @@ const LoginSigup = () => {
             </div>
             <div className="inputs">
                 {action==="Login"?<div></div>:<div className="input">
-                    <img src={user_icon} alt="" />
+                    <Image src={user_icon} alt="" />
                     <input type="text" placeholder='Nome'/>
                 </div>}               
             </div>
             <div className="inputs">
                 <div className="input">
-                    <img src={email_icon} alt="" />
+                    <Image src={email_icon} alt="" />
                     <input type="email" placeholder='E-mail'/>
                 </div>
             </div>
             <div className="inputs">
                 <div className="input">
-                    <img src={password_icon} alt="" />
+                    <Image src={password_icon} alt="" />
                     <input type="password" placeholder='Senha'/>
                 </div>
             </div>

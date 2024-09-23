@@ -1,4 +1,6 @@
 import React from "react";
+import Image from 'next/image'
+import Base from "../../Assets/base.png"
 import Navbar from "./navbar";
 import { FiArrowRight } from "react-icons/fi";
 
@@ -6,10 +8,7 @@ const Home = () => {
   return (
     <div className="home-container">
       <Navbar />
-      <div className="home-banner-container">
-        <div className="home-bannerImage-container">
-          colocar imagem
-        </div>
+      <div className="home-banner-container">      
         <div className="home-text-section">
           <h1 className="primary-heading">
             Não erre mais o seu tom!
@@ -22,7 +21,7 @@ const Home = () => {
           </button>
         </div>
         <div className="home-image-section">
-          colocar imagem
+          <Image src={Base} alt="" />
         </div>
       </div>
     </div>
