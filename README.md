@@ -19,7 +19,7 @@ https://www.notion.so/TCC-ColorMatch-aea3be32a9ab412ea60d7b6273a1bd96?pvs=4
 
  ● RF2: O sistema deve permitir que o usuário selecione o tom de base que utiliza;​
 
- ● RF3: O sistema deve utilizar a técnica de reconhecimento de padrões para encontrar o tom correspondente dentro da base de dados;​
+ ● RF3: O sistema deve encontrar a cor correspondente na base de dados;​
 
  ● RF4: O sistema deve retornar a correspondência em outra marca;​
 
@@ -35,11 +35,9 @@ https://www.notion.so/TCC-ColorMatch-aea3be32a9ab412ea60d7b6273a1bd96?pvs=4
 
  ● RNF2: O back-end deve ser desenvolvido em Node.js;​
 
- ● RNF3: O front-end deve ser desenvolvido com React;​
+ ● RNF3: O front-end deve ser desenvolvido com React;​​
 
- ● RNF4: A Inteligência artificial com reconhecimento de padrões deve ser desenvolvido em Python;​
+ ● RNF4: O banco de dados será o MySQL;​
 
- ● RNF5: O banco de dados será o MySQL;​
-
- ● RNF6: O sistema deve ser compatível com vários navegadores e dispositivos​
+ ● RNF5: O sistema deve ser compatível com vários navegadores e dispositivos​
 
